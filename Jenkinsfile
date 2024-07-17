@@ -11,7 +11,7 @@ pipeline {
         // This can be http or https
         NEXUS_PROTOCOL = "http"
         // Where your Nexus is running
-        NEXUS_URL = "65.2.74.15:8081/"
+        NEXUS_URL = "3.111.32.195:8081/"
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "sonarqube"
         // Jenkins credential id to authenticate to Nexus OSS
